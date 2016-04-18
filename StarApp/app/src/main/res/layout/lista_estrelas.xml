@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_row="1"
+        android:layout_column="34"
+        android:background="@drawable/estrela"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txtNomeAluno"
+        android:layout_row="34"
+        android:layout_column="0"
+        android:layout_gravity="top"/>
+
+</GridLayout>

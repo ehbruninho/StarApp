@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:layout_width="196dp"
+            android:layout_height="50dp"
+            android:id="@+id/etPesquisa"
+            android:hint="Pesquisa por Cadeira"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btPesquisa"
+            android:onClick="btPesquisa"
+            android:background="@drawable/pesquisar"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ltvDados" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="right" >
+
+    </ScrollView>
+
+
+</LinearLayout>
